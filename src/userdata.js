@@ -1,3 +1,5 @@
+import "./userdata.css"
+
 const UserData = ({user}) =>{
     
     if (user == null) return (
@@ -25,8 +27,9 @@ const UserData = ({user}) =>{
     }
     const userProperties = Object.entries(user);
     return(
-        <div>
-            <label><h2>User:</h2></label>
+        <div className="user-data">
+            <h2>User:</h2>
+            <hr className="list-line"/>
             <div>
                 
                 <ul key={user.id}>

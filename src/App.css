@@ -32,6 +32,9 @@ th, td {
   padding: 10px;
 }
 
+
+
+
 input {
   margin: 1%;
   padding: 8px;
@@ -44,6 +47,9 @@ input {
 
 input::placeholder {
   color: #7d7d7d;
+}
+hr{
+  color: white;
 }
 
 button {

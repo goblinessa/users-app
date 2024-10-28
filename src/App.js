@@ -36,7 +36,7 @@ function App() {
 
   if(loading){
     return(
-      <div class="loading-gif">
+      <div className="loading-gif">
         <img src={loadingGif}/>
       </div>
     )
@@ -49,7 +49,8 @@ function App() {
 
   return (
     <div className="App">
-      <header><h1>USERS APP!!!</h1></header>
+      <header><h1>USERS APP!!!</h1><hr/><hr/></header>
+      
       <main>
         <UserTable users={users} onUserSelect={handleUserSelect}></UserTable>
         <UserData user={user} ></UserData>

@@ -1,0 +1,28 @@
+.user-data{
+    
+    border: 1px solid blue; /* Set border style, width, and color */
+    padding: 20px; /* Add some padding inside the div */
+    max-width: 800px; /* Optional: set a maximum width */
+    margin: 20px auto; /* Center the div horizontally with auto margins */
+    
+      
+}
+
+.list-line{
+    color: blue;
+}
+ul {
+
+    list-style-type: none;  
+    padding: 0;             
+    margin: 0 auto;         
+    width: 50%;             
+    text-align: center;     
+  }
+  
+  li {
+    font-family: 'Arial', sans-serif; 
+    font-size: 18px;                  
+    margin: 10px 0;                   
+  }
+  
