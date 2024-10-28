@@ -28,11 +28,15 @@ const UserData = ({user}) =>{
         <div>
             <label><h2>User:</h2></label>
             <div>
-                {userProperties.map(([key, value]) => (
-                    <ul key={user.id}>
-                        {renderProps(key, value)}
-                    </ul>
-                ))}
+                
+                <ul key={user.id}>
+                    {userProperties.map(([key, value]) => (
+                        
+                            renderProps(key, value)
+                        
+                    ))}
+                </ul>
+                
             </div>
             
         </div>
@@ -40,3 +44,8 @@ const UserData = ({user}) =>{
 }
 
 export default UserData;
+/*
+<ul key={user.id}>
+                            <li>{user.name}</li>
+                            {renderProps(key, value)}
+                            </ul>*/

@@ -43,7 +43,7 @@ function App() {
   }
   if(error!== null){
     <div>
-
+      return <div>Error: {error}</div>;
     </div>
   }
 
